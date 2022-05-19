@@ -1,0 +1,150 @@
+[
+  {
+    "id": "TEST_MMinden_9161_FASTQ_INPUT",
+    "description": "runs the nanoporeSVAll workflow, with nanopore fastq as input",
+    "arguments": {
+      "nanoporeSVAll.sample": "MMinden_9161",
+      "nanoporeSVAll.tumor": "MMinden_9161",
+      "nanoporeSVAll.normal": "MMinden_9161",
+      "nanoporeSVAll.samplefile" : "/.mounts/labs/gsiprojects/gsi/nanopore_data/MMinden_9161/MMinden_9161/fastq/MMinden_9161.fastq.gz",
+      "nanoporeSVAll.smkConfig.generateConfig_modules": "nanopore-sv-analysis/20220505",
+      "nanoporeSVAll.SVAll_modules": "nanopore-sv-analysis/20220505",
+      "nanoporeSVAll.SVAll_timeout": null,
+      "nanoporeSVAll.SVAll_jobMemory": null   
+    },
+    "engineArguments": {
+      "write_to_cache": false,
+      "read_from_cache": false
+    },
+    "metadata": {
+      "nanoporeSVAll.insertions": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      },
+      "nanoporeSVAll.deletions": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      },
+      "nanoporeSVAll.duplications": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      },
+      "nanoporeSVAll.inversions": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      },
+      "nanoporeSVAll.translocations": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      },
+      "nanoporeSVAll.CNVs": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      },
+      "nanoporeSVAll.depth100window": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      },
+      "nanoporeSVAll.depth1000window": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      },
+      "nanoporeSVAll.depth10000window": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      },
+      "nanoporeSVAll.depth100000window": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      },
+      "nanoporeSVAll.depth500000window": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      },
+      "nanoporeSVAll.plotDepth": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      },
+      "nanoporeSVAll.plotSmall": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      },
+      "nanoporeSVAll.plotLarge": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      },
+      "nanoporeSVAll.plotDepthChrms": {
+        "contents": [
+          {
+            "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeSVAll_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+          }
+        ],
+        "type": "ALL"
+      }
+   },
+    "validators": [
+      {
+        "metrics_calculate": "@CHECKOUT@/tests/calculate.sh",
+        "metrics_compare": "@CHECKOUT@/tests/compare.sh",
+        "output_metrics": "/.mounts/labs/gsi/testdata/nanoporeSVAll/output_expectation/TEST_MMinden_9161_FASTQ_INPUT.metrics",
+        "type": "script"
+      }
+    ]
+  }
+]

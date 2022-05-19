@@ -51,12 +51,12 @@ workflow nanoporeSVAll {
      author: "Gavin Peng"
      email: "gpeng@oicr.on.ca"
      description: "nanoporeSVAll, workflow that generates structural variant and coverage analysis files from input of nanopore fastq files, a wrapper of the workflow https://github.com/mike-molnar/nanopore-SV-analysis"
-     dependencies: 
+     dependencies: [
       {
         name: "nanopore_sv_analysis/20220505",
         url: "https://gitlab.oicr.on.ca/ResearchIT/modulator/-/blob/master/code/gsi/70_nanopore_sv_analysis.yaml"
       }
-
+     ]
      output_meta: {
         insertions: "output from rule all of the original workflow",
         deletions: "output from rule all of the original workflow", 
@@ -71,7 +71,7 @@ workflow nanoporeSVAll {
         depth500000window: "output from rule all of the original workflow",
         plotDepth: "output from rule all of the original workflow",
         plotSmall: "output from rule all of the original workflow",
-        plotLarg: "output from rule all of the original workflow",
+        plotLarge: "output from rule all of the original workflow",
         plotDepthChrms: "output from rule all of the original workflow"
      }
     }
