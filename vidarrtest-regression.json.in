@@ -144,7 +144,7 @@
       {
         "metrics_calculate": "@CHECKOUT@/tests/calculate.sh",
         "metrics_compare": "@CHECKOUT@/tests/compare.sh",
-        "output_metrics": "/.mounts/labs/gsiprojects/gsi/nanopore_data/MMinden_9161/output_expectation/SVAll_MMinden_9161_FASTQ.metrics",
+        "output_metrics": "/.mounts/labs/gsi/testdata/nanoporeRunSVAnalysis/output_expectation/SVAll_MMinden_9161_FASTQ.metrics",
         "type": "script"
       }
     ]
