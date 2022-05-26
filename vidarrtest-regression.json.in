@@ -5,7 +5,7 @@
     "arguments": {
       "nanoporeSVAll.samplefile": {
         "contents": {
-            "configuration": "/.mounts/labs/gsiprojects/gsi/nanopore_data/MMinden_9161/MMinden_9161/fastq/MMinden_9161.fastq",
+            "configuration": "/.mounts/labs/gsi/testdata/nanoporeSVAll/input_data/MMinden_9161.fastq",
             "externalIds": [
                 {
                     "id": "TEST",
@@ -154,7 +154,7 @@
       {
         "metrics_calculate": "@CHECKOUT@/tests/calculate.sh",
         "metrics_compare": "@CHECKOUT@/tests/compare.sh",
-        "output_metrics": "/.mounts/labs/gsi/testdata/nanoporeRunSVAnalysis/output_expectation/SVAll_MMinden_9161_FASTQ.metrics",
+        "output_metrics": "/.mounts/labs/gsi/testdata/nanoporeSVAll/output_expectation/SVAll_MMinden_9161_FASTQ.metrics",
         "type": "script"
       }
     ]
