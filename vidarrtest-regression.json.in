@@ -20,7 +20,7 @@
       "nanoporeSVAll.normal": "MMinden_9161",
       "nanoporeSVAll.smkConfig.generateConfig_jobMemory": null,
       "nanoporeSVAll.smkConfig.generateConfig_timeout":null, 
-      "nanoporeSVAll.SVAll.modules": "nanopore-sv-analysis/20220505",
+      "nanoporeSVAll.SVAll.modules": "conda/4.11.0",
       "nanoporeSVAll.SVAll.timeout": null,
       "nanoporeSVAll.SVAll.jobMemory": null   
     },
