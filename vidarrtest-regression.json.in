@@ -18,8 +18,8 @@
       "nanoporeSVAll.sample": "MMinden_9161",
       "nanoporeSVAll.tumor": "MMinden_9161",
       "nanoporeSVAll.normal": "MMinden_9161",
-      "nanoporeSVAll.generateConfig_jobMemory": null,
-      "nanoporeSVAll.generateConfig_timeout":null, 
+      "nanoporeSVAll.generateConfig.jobMemory": null,
+      "nanoporeSVAll.generateConfig.timeout":null, 
       "nanoporeSVAll.SVAll.modules": "conda/4.11.0",
       "nanoporeSVAll.SVAll.timeout": null,
       "nanoporeSVAll.SVAll.jobMemory": null   
