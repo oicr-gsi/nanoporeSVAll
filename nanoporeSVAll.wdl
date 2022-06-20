@@ -41,7 +41,7 @@ workflow nanoporeSVAll {
         File depth100000window = SVAll.depth100000window
         File depth500000window = SVAll.depth500000window
         File plotDepth = SVAll.plotDepth
-        File plotSmall = SVAll.plotLarge
+        File plotSmall = SVAll.plotSmall
         File plotLarge = SVAll.plotLarge
         Array[File] plotDepthChrms = SVAll.plotDepthChrms
         }
